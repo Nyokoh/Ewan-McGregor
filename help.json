@@ -1,0 +1,26 @@
+[
+
+    {
+        "name": "bt",
+        "simple": "!bt  - rolls for a Battle Trait",
+        "detailed": "Useage: !bt names...\n\nnames can be blank, or any number of names, but if the name has multiple words, it must be surrounded by quotes. Ex: \"Apateon the Four-faced\"\n\n\nExamples:\n!bt   -- rolls a single battle trait\n!bt Someone \"Another Character\" \"A Third Unit\"  -- rolls for the three named units"
+    },
+
+    {
+        "name": "ooa",
+        "simple": "!ooa  - rolls an Out of Action test",
+        "detailed": "Useage: !ooa names...\n\nnames can be blank, or any number of names, but if the name has multiple words, it must be surrounded by quotes. Ex: \"Apateon the Four-faced\"\n\n\nExamples:\n!ooa   -- rolls a single Out of Action test\n!ooa Someone \"Another Character\" \"A Third Unit\"  -- rolls for the three named units"
+    },
+
+    {   
+        "name": "roll",
+        "simple": "!roll|r      - rolls some dice",
+        "detailed": "Useage: !roll|r dice... args...\n\ndice can be blank, or any number of dice strings, ex: 1d6\nargs are not required:\n-s: outputs a simplified roll result\n\n\nExamples:\n!roll -- rolls 1d6\n!r 1d6 -s\t\t-- rolls 1d6 and outputs a simplified result\n!r 1d6 1d10 1d12+1 \t-- rolls 1d6, then 1d10, then 1d12+1" 
+    },
+
+    {
+        "name": "?",
+        "simple": "!?       - outputs general help or more specific help",
+        "detailed": "Useage: !? [command]\n\ncommand can the be the name of any defined command\n\n\nExamples:\n!?\t\t\t-- outputs general help and a list of commands\n!? roll\t\t-- outputs specific help on the !roll command"
+    }
+]
